@@ -5,6 +5,13 @@ nav a {
   font-size: 30px
 }
 
+img {
+  float: left;
+    width:  1000px;
+    height: 665px;
+    object-fit: cover;
+    border-radius: 9px;
+}
 /* Navbar Styling */
 .header {
   display: flex;
