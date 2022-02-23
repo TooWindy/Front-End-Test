@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Beaches = () => {
   const [count, setCount] = useState(0)
 
-  //This serves as our dummy data. In a live website, this probably wouldn't be utilized unless we want static images. In anycase, I chose to utilize a hash map here because of reference speed as well as it beings somewhat similar to JSON data that I'd be recieving from our backed. More photos can always be added to our hashmap here.
+  //This serves as our dummy data. In a live website, this probably wouldn't be utilized unless we want static images. In anycase, I chose to utilize a hash map here because of reference speed as well as it being somewhat similar to JSON data that I'd be recieving from our backend. More photos can always be added to our hashmap here.
 
   const beachList = {
     0: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJvcGljYWwlMjBiZWFjaHxlbnwwfHwwfHw%3D&w=1000&q=80",
@@ -38,11 +38,11 @@ const Beaches = () => {
     <div>
       <div id={'beachContainer'}>
         {/* {console.log(count)} */}
-        <button onClick={prevClick}> Prev</button>
+        <button id={'prevButton'} onClick={prevClick}> Prev</button>
         <div id={'beachCenter'}>
-           <img src={beachList[count]}/>
+           <img id={'beachImage'} src={beachList[count]}/>
         </div>
-        <button onClick={nextClick}>Next</button>
+        <button id = {'nextButton'} onClick={nextClick}>Next</button>
       </div>
     </div>
   )

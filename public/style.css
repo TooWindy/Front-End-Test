@@ -7,6 +7,17 @@ nav a {
   color: #F6E3D4;
   font-size: 30px
 }
+button {
+  border: none;
+  padding: 5px 10px;
+  margin: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: auto;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
 /* If we wanted all of images to be the same size, we could set a size here by manually setting width and height, if not to ensure its original resolution, we can also remove it here.  */
 img {
   float: left;
@@ -47,21 +58,57 @@ img {
   height: 100px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-list {
+  display: none;
+  align-self: auto;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-list {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
 /* Selectors for our actual Beaches component */
 
 #beachContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 4em;
+  text-align: center;
+  margin-top: 2em;
 }
 
 #beachCenter {
   background-color: #BD9362;
   border-radius: 9px;
-  padding: 50px
+  padding: 50px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75)
 }
 
 #beachImage {
   margin:auto
+}
+
+/* button selectors */
+
+#nextButton {
+  background-color: green;
+  padding: 15px 60px;
+  margin-bottom: 50px;
+}
+
+#prevButton {
+  background-color: red;
+  padding: 15px 60px;
+  margin-bottom: 50px;
 }
