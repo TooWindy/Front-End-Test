@@ -1,3 +1,38 @@
-#root {
-  background-color: aquamarine;
+nav a {
+  display: inline-block;
+  margin: 1em;
+  color: #F6E3D4;
+  font-size: 30px
+}
+
+/* Navbar Styling */
+.header {
+  display: flex;
+  flex-direction: row;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #64ABE3;
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	border-radius: 5px;
+}
+
+.logo {
+	font-family: 'Montserrat', sans-serif;
+  align-self: center;
+  color: #F6E3D4;
+  font-size: 45px;
+}
+
+.nav {
+  align-self: center;
+  margin-left: auto;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration-color: violet;
+}
+
+.navImage {
+  align-self: center;
+  width: auto;
+  height: 100px;
 }
