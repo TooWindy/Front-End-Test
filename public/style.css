@@ -1,16 +1,19 @@
+body {
+  background-color: #F6E3D4
+}
 nav a {
   display: inline-block;
   margin: 1em;
   color: #F6E3D4;
   font-size: 30px
 }
-
+/* If we wanted all of images to be the same size, we could set a size here by manually setting width and height, if not to ensure its original resolution, we can also remove it here.  */
 img {
   float: left;
-    width:  1000px;
-    height: 665px;
-    object-fit: cover;
-    border-radius: 9px;
+  width:  1000px;
+  height: 665px;
+  object-fit: cover;
+  border-radius: 9px;
 }
 /* Navbar Styling */
 .header {
@@ -42,4 +45,23 @@ img {
   align-self: center;
   width: auto;
   height: 100px;
+}
+
+/* Selectors for our actual Beaches component */
+
+#beachContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 4em;
+}
+
+#beachCenter {
+  background-color: #BD9362;
+  border-radius: 9px;
+  padding: 50px
+}
+
+#beachImage {
+  margin:auto
 }
