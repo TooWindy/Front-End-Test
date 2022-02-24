@@ -1,4 +1,4 @@
-Hi! This is my frontend task for Ntropy. This is a simple image viewing website that is responsive. Images are already pre-loaded, so I chose to display those images using React. In addition I added some functionality, allowing the user to flip through images. I added a navbar too, but be aware that for now it is simply cosmetic (although it can be developed further to be used by a user). The bulk of this assignment are the two components Beaches.js and Navbar.js. In addition, the styling for the components is the public folder.
+Hi! This is my frontend task for Ntropy. This is a simple beach image viewing website that is responsive. Images are already pre-loaded, so I chose to display those images using React. In addition I added some functionality, allowing the user to flip through images. I added a navbar too, but be aware that for now it is simply cosmetic (although it can be developed further to be used by a user). The bulk of this assignment are the two components Beaches.js and Navbar.js. In addition, the styling for the components is the public folder.
 
 To get started:
   - npm install

@@ -15,7 +15,6 @@ const Beaches = () => {
   //These two functions operate our clicks to view pictures. Since we have access to our dummy data, we can simply increase the count of our state if the user clicks next, or decrease the count if the user clicks prev. I added a sort of wrapping conditional, to where if the user exceeds the length of our object, we just set the count back to 0. The same applies if the count goes below 0
 
   const nextClick = () => {
-    // console.log("next!")
     if(count >= Object.keys(beachList).length -1){
       setCount(0)
     }
@@ -25,7 +24,6 @@ const Beaches = () => {
   }
 
   const prevClick = () => {
-    // console.log("prev!")
     if(count <= 0){
       setCount(Object.keys(beachList).length -1)
     }
@@ -37,7 +35,6 @@ const Beaches = () => {
   return (
     <div>
       <div id={'beachContainer'}>
-        {/* {console.log(count)} */}
         <button id={'prevButton'} onClick={prevClick}> Prev</button>
         <div id={'beachCenter'}>
           <img  id={'beachImage'}src={beachList[count]} alt={'A nice beach picture'} />
