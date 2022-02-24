@@ -24,6 +24,12 @@ button {
   border-radius: 10px;
   transition-duration: 0.4s;
 }
+
+p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 /* If we wanted all of images to be the same size, we could set a size here by manually setting width and height, if not to ensure its original resolution, we can also remove it here.  */
 img {
   float: left;
@@ -83,7 +89,10 @@ img {
   display: flex;
   text-align: center;
   flex-direction: column;
+  justify-items: start;
+
 }
+
 /* Selectors for our actual Beaches component */
 
 #beachContainer {
