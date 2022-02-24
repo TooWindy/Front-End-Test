@@ -8,4 +8,6 @@ To get started:
 
 As you may be able to tell, as of right now this is a full stack application. However I focused purely on the frontend to complete this assignment. Although this appliction does feature a backend using express, it is not utilized. This is because I used a project boilerplate I created around a month ago. That being said, this application does have potential to expand into something greater, should I choose to work on it.
 
+All of the work you see here is 100% my own and I was not assisted in by anyone in anyway.
+
 I sincerely hope this is satisfactory to you!
